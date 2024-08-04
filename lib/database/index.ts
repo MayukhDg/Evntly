@@ -2,7 +2,7 @@ import mongoose, { Mongoose } from 'mongoose';
 
 const MONGODB_URI = process.env.MONGODB_URI;
 
-//dbname- Evt
+//dbname- Evntly
 
 interface MongooseConnection {
   conn: Mongoose | null;
